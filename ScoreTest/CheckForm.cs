@@ -497,7 +497,7 @@ namespace ScoreTest
             e.Graphics.DrawEllipse(Pens.Black,newRectangle);
             newRectangle.Inflate(1,1);
             gp.AddEllipse(newRectangle);
-            //btn.Region = new Region(gp);
+            btn.Region = new Region(gp);
             gp.Dispose();
 
             

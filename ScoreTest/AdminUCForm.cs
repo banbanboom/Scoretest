@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -566,6 +567,20 @@ namespace ScoreTest
             var btn = (Button)sender;
             panelSlide.Height = btn.Height;
             panelSlide.Top = btn.Top;
+        }
+
+        private void btn_Paint(object sender, PaintEventArgs e)
+        {
+            Button btn = (Button)sender;
+            GraphicsPath gp = new GraphicsPath();
+            Rectangle newRectangle = btn.ClientRectangle;
+
+            newRectangle.Inflate(-10, -10);
+            e.Graphics.DrawEllipse(Pens.Black, newRectangle);
+            newRectangle.Inflate(1, 1);
+            gp.AddEllipse(newRectangle);
+            btn.Region = new Region(gp);
+            gp.Dispose();
         }
     }
 }
