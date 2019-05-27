@@ -363,7 +363,7 @@ namespace ScoreTest
                 
 
                 //企業評価
-                baseName = datatable.Columns[i + 6].ColumnName;
+                baseName = datatable.Columns[i + (datatable.Columns.Count/2)].ColumnName;
                 strValue = Convert.ToString(datatable.Rows[0][baseName]);
                 searchName = baseName + "_" + strValue;
 
