@@ -50,9 +50,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("MS Mincho", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.ForeColor = System.Drawing.Color.PeachPuff;
-            this.label1.Location = new System.Drawing.Point(203, 157);
+            this.label1.Location = new System.Drawing.Point(271, 196);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 21);
+            this.label1.Size = new System.Drawing.Size(158, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "ユーザ名 :";
             // 
@@ -62,33 +63,37 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("MS Mincho", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.Color.PeachPuff;
-            this.label2.Location = new System.Drawing.Point(203, 219);
+            this.label2.Location = new System.Drawing.Point(271, 274);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 22);
+            this.label2.Size = new System.Drawing.Size(187, 27);
             this.label2.TabIndex = 1;
             this.label2.Text = "パスワード :";
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(364, 157);
+            this.txtUserName.Location = new System.Drawing.Point(485, 196);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(180, 19);
+            this.txtUserName.Size = new System.Drawing.Size(239, 22);
             this.txtUserName.TabIndex = 2;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(364, 212);
+            this.txtPassword.Location = new System.Drawing.Point(485, 265);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.MaxLength = 8;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(180, 19);
+            this.txtPassword.Size = new System.Drawing.Size(239, 22);
             this.txtPassword.TabIndex = 3;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(401, 337);
+            this.button2.Location = new System.Drawing.Point(535, 421);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(143, 72);
+            this.button2.Size = new System.Drawing.Size(191, 90);
             this.button2.TabIndex = 5;
             this.button2.Text = "終了";
             this.button2.UseVisualStyleBackColor = true;
@@ -100,55 +105,60 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(274, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(365, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(246, 104);
+            this.pictureBox1.Size = new System.Drawing.Size(328, 130);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
             // roundButton3
             // 
-            this.roundButton3.Location = new System.Drawing.Point(40, 221);
+            this.roundButton3.Location = new System.Drawing.Point(53, 276);
+            this.roundButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roundButton3.Name = "roundButton3";
-            this.roundButton3.Size = new System.Drawing.Size(100, 94);
+            this.roundButton3.Size = new System.Drawing.Size(133, 118);
             this.roundButton3.TabIndex = 12;
             this.roundButton3.Text = "roundButton3";
             this.roundButton3.UseVisualStyleBackColor = true;
             // 
             // roundButton21
             // 
-            this.roundButton21.Location = new System.Drawing.Point(274, 237);
+            this.roundButton21.Location = new System.Drawing.Point(365, 296);
+            this.roundButton21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roundButton21.Name = "roundButton21";
-            this.roundButton21.Size = new System.Drawing.Size(100, 100);
+            this.roundButton21.Size = new System.Drawing.Size(133, 125);
             this.roundButton21.TabIndex = 11;
             this.roundButton21.Text = "roundButton21";
             this.roundButton21.UseVisualStyleBackColor = true;
             // 
             // roundButton2
             // 
-            this.roundButton2.Location = new System.Drawing.Point(146, 244);
+            this.roundButton2.Location = new System.Drawing.Point(195, 305);
+            this.roundButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roundButton2.Name = "roundButton2";
-            this.roundButton2.Size = new System.Drawing.Size(100, 100);
+            this.roundButton2.Size = new System.Drawing.Size(133, 125);
             this.roundButton2.TabIndex = 10;
             this.roundButton2.Text = "roundButton2";
             this.roundButton2.UseVisualStyleBackColor = true;
             // 
             // roundButton1
             // 
-            this.roundButton1.Location = new System.Drawing.Point(72, 321);
+            this.roundButton1.Location = new System.Drawing.Point(96, 401);
+            this.roundButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roundButton1.Name = "roundButton1";
-            this.roundButton1.Size = new System.Drawing.Size(130, 88);
+            this.roundButton1.Size = new System.Drawing.Size(173, 110);
             this.roundButton1.TabIndex = 9;
             this.roundButton1.Text = "roundButton1";
             this.roundButton1.UseVisualStyleBackColor = true;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(238, 321);
+            this.btnLogin.Location = new System.Drawing.Point(317, 401);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(81, 88);
+            this.btnLogin.Size = new System.Drawing.Size(108, 110);
             this.btnLogin.TabIndex = 8;
             this.btnLogin.Text = "ログイン";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -158,20 +168,21 @@
             // 
             // roundButton4
             // 
-            this.roundButton4.Location = new System.Drawing.Point(72, 157);
+            this.roundButton4.Location = new System.Drawing.Point(96, 196);
+            this.roundButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roundButton4.Name = "roundButton4";
-            this.roundButton4.Size = new System.Drawing.Size(150, 119);
+            this.roundButton4.Size = new System.Drawing.Size(200, 149);
             this.roundButton4.TabIndex = 13;
             this.roundButton4.Text = "roundButton4";
             this.roundButton4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LimeGreen;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 562);
             this.Controls.Add(this.roundButton4);
             this.Controls.Add(this.roundButton3);
             this.Controls.Add(this.roundButton21);
@@ -184,6 +195,7 @@
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "ログイン";
             this.Load += new System.EventHandler(this.Form1_Load);
